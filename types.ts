@@ -1,5 +1,4 @@
 
-// Add missing React import to resolve 'Cannot find namespace React' error for React.ReactNode
 import React from 'react';
 
 export interface NavItem {
@@ -43,6 +42,9 @@ export interface BlogPost {
   date: string;
   readTime: string;
   image: string;
+  category: 'Strategy' | 'Technical' | 'AI & Innovation' | 'Platform Governance';
+  tags: string[];
+  isFeatured?: boolean;
 }
 
 export interface FAQItem {
