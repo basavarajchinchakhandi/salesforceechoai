@@ -26,10 +26,10 @@ import { Service, NavItem, Testimonial, TeamMember, BlogPost, FAQItem } from './
 export const COMPANY_CONFIG = {
   // Company Information
   name: 'SalesforceEchoAi',
-  nameShort: 'TroopAi',
+  nameShort: 'EchoAi',
   tagline: 'AI-Powered Salesforce Solutions',
   description: 'Providing modern businesses with world-class, AI-driven Salesforce implementation and consulting services.',
-  logoText: 'T', // Single character for logo
+  logoText: 'E', // Single character for logo
   
   // Contact Information
   contact: {
