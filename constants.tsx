@@ -25,7 +25,7 @@ import { Service, NavItem, Testimonial, TeamMember, BlogPost, FAQItem } from './
 
 export const COMPANY_CONFIG = {
   // Company Information
-  name: 'SalesforceTroopAi',
+  name: 'SalesforceEchoAi',
   nameShort: 'TroopAi',
   tagline: 'AI-Powered Salesforce Solutions',
   description: 'Providing modern businesses with world-class, AI-driven Salesforce implementation and consulting services.',
@@ -33,11 +33,11 @@ export const COMPANY_CONFIG = {
   
   // Contact Information
   contact: {
-    email: 'info@salesforcetroopai.com',
-    phone: '+1 (555) 123-4567',
+    email: 'basumohan96@gmail.com',
+    phone: '+91 8296089669',
     businessHours: 'Mon-Fri: 9:00 AM - 6:00 PM EST',
     location: 'Remote-First Team Serving Clients Nationwide',
-    legalEmail: 'legal@salesforcetroopai.com',
+    legalEmail: 'legal@salesforceechoai.com',
     // Form submission - Use one of these simple solutions:
     // Option 1: FormSubmit (easiest) - Just set formAction to: `https://formsubmit.co/${contact.email}`
     // Option 2: Formspree - Sign up at formspree.io and get your form ID
@@ -48,16 +48,16 @@ export const COMPANY_CONFIG = {
   
   // Social Media Links
   social: {
-    linkedin: 'https://www.linkedin.com/company/salesforce-troop',
-    twitter: 'https://twitter.com/karkra_nikhil',
-    youtube: 'https://www.youtube.com/@salesforcetroop',
+    linkedin: 'https://www.linkedin.com/in/basavarajmc/',
+    twitter: 'https://x.com/BasavarajC79813/',
+    youtube: 'https://www.linkedin.com/in/basavarajmc/',
     // Add more social platforms as needed
   },
   
   // Legal & Copyright
   copyright: {
     year: 2025,
-    companyName: 'SalesforceTroopAi',
+    companyName: 'SalesforceEchoAi',
   },
   
   // Branding Colors (already in tailwind.config.ts, but keeping for reference)
@@ -69,8 +69,8 @@ export const COMPANY_CONFIG = {
   
   // Site Metadata
   site: {
-    url: 'https://sfai.netlify.app',
-    defaultTitle: 'SalesforceTroopAi | AI-Powered Salesforce Solutions',
+    url: 'https://salesforceechoai.netlify.app',
+    defaultTitle: 'SalesforceEchoAi | AI-Powered Salesforce Solutions',
     defaultDescription: 'Transform your business with AI-powered Salesforce solutions. Get 30% more productivity and 2X ROI with our expert implementation.',
   },
   
@@ -178,7 +178,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Sarah Jenkins',
     title: 'COO',
     company: 'FinTech Dynamics',
-    content: 'SalesforceTroopAi transformed our sales process. Our team productivity increased by 40% within the first three months of implementation.',
+    content: 'SalesforceEchoAi transformed our sales process. Our team productivity increased by 40% within the first three months of implementation.',
     photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200&h=200',
   },
   {
@@ -192,7 +192,7 @@ export const TESTIMONIALS: Testimonial[] = [
 
 export const TEAM: TeamMember[] = [
   {
-    name: 'Alex Thompson',
+    name: 'Basavaraj Chinchakhandi',
     title: 'CEO & Founder',
     bio: '15 years of Salesforce architecture experience with a passion for leveraging AI to solve complex enterprise problems.',
     photo: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800&h=1000',
@@ -219,7 +219,7 @@ export const TEAM: TeamMember[] = [
 
 export const FAQS: FAQItem[] = [
   // General (8)
-  { category: 'General', question: 'What is SalesforceTroopAi?', answer: 'We are a premier Salesforce consulting partner specializing in AI-driven digital transformation, implementation, and custom development.' },
+  { category: 'General', question: 'What is SalesforceEchoAi?', answer: 'We are a premier Salesforce consulting partner specializing in AI-driven digital transformation, implementation, and custom development.' },
   { category: 'General', question: 'Are you a certified Salesforce Partner?', answer: 'Yes, we are official Salesforce Certified Partners with over 50+ individual certifications across our core architect team.' },
   { category: 'General', question: 'Do you offer project rescue services?', answer: 'Absolutely. We specialize in auditing and fixing Salesforce instances that were poorly implemented or have high technical debt.' },
   { category: 'General', question: 'Where is your team based?', answer: 'We are a remote-first team with hubs in North America and Europe, allowing us to provide 24/7 support for global enterprises.' },
