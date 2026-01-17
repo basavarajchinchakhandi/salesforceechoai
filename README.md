@@ -1,4 +1,4 @@
-# SalesforceTroopAi - Next.js Website
+# SalesforceEchoAi - Next.js Website
 
 A modern, SEO-friendly Next.js website for Salesforce consulting services. Fully configurable without a database - all settings are managed through code.
 
